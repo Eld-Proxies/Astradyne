@@ -8,7 +8,7 @@ try {
 
 if (!inFrame && !navigator.userAgent.includes('Firefox')) {
   const popup = open('about:blank', '_blank')
-  if (!popup || popup.closed) alert('Allow popups and redirects to avoid this from being blocked [Made By Eld]')
+  if (!popup || popup.closed) alert('Allow popups and redirects to avoid this from being blocked [Made By Eld]. Buy premium for more features. Dm eld123 for info')
   else {
     const doc = popup.document
     const iframe = doc.createElement('iframe')
